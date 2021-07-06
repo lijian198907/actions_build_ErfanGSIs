@@ -37,7 +37,7 @@ jobs:
        - name: Fix exit
          run: |
               sed -i 's/\|\| exit 1//g' $GITHUB_WORKSPACE/ErfanGSIs/url2GSI.sh -a
-              sed -i 's/exit 1//g' $GITHUB_WORKSPACE/ErfanGSIs/url2GSI.sh -b
+              sed -i 's/exit 1//g' $GITHUB_WORKSPACE/ErfanGSIs/url2GSI.sh
        
        - name: Setting up ErfanGSI requirements with Xiaoxin script
          run: |
